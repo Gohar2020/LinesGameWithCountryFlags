@@ -200,7 +200,7 @@ const moveBall = (gameArray, stepsArr) => {
       setTimeout(() => {
         gameArray[step[X]][step[Y]] = FREE_CELL;
         createPlayGround(gameArray);
-      }, (delay += 50));
+      }, (delay += 45));
     }
   }
 };
